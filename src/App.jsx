@@ -1,22 +1,20 @@
 import { BrowserRouter, Link, Navigate, Route, Routes } from "react-router-dom";
-// import Home from "./Home";
-
+import Home from "./Home";
 import Contactus from "./Contactus";
 import Aboutus from "./Aboutus";
 import Cart from "./Cart";
 import Milk from "./Milk";
 import Login from "./Login";
-import { logout } from "./Store";
-// import VegItems from "./Veg";
-
+import { logout } from "./Store.js";
 import "./App.css";
 import Nonveg from "./Nonveg";
 import { useDispatch, useSelector } from "react-redux";
-import Home from "./home";
-import Veg from "./veg";
 import Orders from "./Orders";
-//  import Veg from "./Veg";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Notfound from "./Notfound";
+import Veg from "./Veg";  // 
+
+
 
 function App()
 {

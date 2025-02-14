@@ -1,8 +1,5 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 
-import Nonveg from "./Nonveg";
-import Milk from "./Milk";
-import Veg from "./veg";
 
 
 // Initial product lists for Veg, NonVeg, and Milk
