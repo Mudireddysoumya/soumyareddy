@@ -1,0 +1,35 @@
+.navbar{
+    background-color: rgb(255, 127, 197);
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+}
+.Linkstyle{
+    color: rgb(255, 0, 0);
+    margin-right: 15px;
+}
+.Linkstyle:hover{
+    color: yellow;
+}
+.welcome{
+    color: rgb(15, 235, 118);
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Logout-btn{
+    margin: 20px;
+    padding: 5px 20px;
+    background-color: greenyellow;
+    color: white;
+
+}
+.Logout-btn:hover{
+    background-color: aquamarine;
+}

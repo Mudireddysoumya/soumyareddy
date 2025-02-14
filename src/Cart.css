@@ -1,0 +1,99 @@
+/* Cart Container */
+.cart-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+  }
+  
+  /* List Styles */
+  .cart-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  /* Cart Actions */
+  .cart-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-actions button {
+    margin: 5px;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .quantity {
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 12px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.3s;
+    padding: 15px;
+    
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Specific Button Colors */
+  .cart-actions button:nth-child(1) { background-color: #28a745; color: white; } /* Increase */
+  .cart-actions button:nth-child(2) { background-color: #ffc107; color: black; } /* Decrease */
+  .cart-actions button:nth-child(3) { background-color: #dc3545; color: white; } /* Remove */
+  
+  .discount-buttons button { background-color: #007bff; color: white; }
+  .coupon-section button { background-color: #17a2b8; color: white; }
+  .complete-purchase-btn { background-color: #6c757d; color: white; width: 100%; }
+  
+  /* Input */
+  input {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Price and Discount Sections */
+  .total-amount, .final-amount, .discount-amount {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .discount-amount {
+    color: green;
+  }
+  
+  .coupon-discount {
+    margin-top: 10px;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+  }
+  

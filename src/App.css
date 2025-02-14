@@ -1,0 +1,135 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;  /* Center everything */
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+  background-color: #007bff;
+  padding: 15px 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-right: auto; /* Pushes everything to the right */
+}
+
+/* Center Navigation Links */
+.nav-center {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-center a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease-in-out;
+  padding: 8px 12px;
+}
+
+.nav-center a:hover {
+  color: #ffcc00;
+}
+
+/* Cart Badge */
+.cart-count {
+  background: red;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+/* Authentication Section */
+.auth-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: auto; /* Pushes login/logout to the right */
+}
+
+.user-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn-login, .btn-logout {
+  background-color: white;
+  color: #007bff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #ffcc00;
+  color: black;
+}
+
+.btn-logout:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-center {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .auth-section {
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
