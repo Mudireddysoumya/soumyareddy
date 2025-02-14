@@ -39,10 +39,10 @@ function App()
         <Link to="/veg"><i class="fa-solid fa-carrot"></i>Veg</Link>
         <Link to="/nonveg"><i class="fa-solid fa-fish"></i>Non-Veg</Link>
         <Link to="/milk"><i class="fa-solid fa-cow"></i>Milk</Link>
-        <Link to="/aboutus"><i class="fa-solid fa-person"></i>AboutUs</Link>
-        <Link to="/contactus"><i class="fa-solid fa-phone-volume"></i>ContactUs</Link>
         <Link to="/cart"><i class="fa-solid fa-cart-plus"></i>Cart <span className="cart-count">{totalItems}</span></Link>
         <Link to="/orders"><i class="fa-regular fa-money-bill-1"></i>Orders</Link>
+        <Link to="/aboutus"><i class="fa-solid fa-person"></i>AboutUs</Link>
+        <Link to="/contactus"><i class="fa-solid fa-phone-volume"></i>ContactUs</Link>
       </div>
       {/* Authentication Section (Right Side) */}
       <div className="auth-section">
